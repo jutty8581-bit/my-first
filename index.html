@@ -12,10 +12,12 @@
 
 <body style="margin: 0; overflow: hidden;">
 
-  <a-scene embedded arjs>
+  <a-scene embedded arjs="patternRatio:0.80">
 
     <!-- HIRO MARKER -->
-    <a-marker preset="hiro">
+    <a-marker 
+      type="pattern"
+      url="pattern-Untitled.patt">
 
       <!-- GREEN CUBE -->
       <a-box
